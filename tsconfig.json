@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "declaration": true,
+    "strict": true,
+    "outDir": "./dist",
+    "target": "es5",
+    "lib": ["es5", "es6", "es2017", "es2018", "es2019", "es2020", "dom"],
+    "module": "commonjs",
+    "typeRoots": ["./node_modules/@types", "./src/@types"]
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["node_modules"],
+  "types": "index.d.ts"
+}
