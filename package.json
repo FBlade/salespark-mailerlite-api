@@ -1,6 +1,6 @@
 {
   "name": "@salespark/mailerlite-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -11,7 +11,7 @@
     "build": "tsc && cp -r src/@types dist",
     "prepare": "npm run build"
   },
-  "author": "SalesPark",
+  "author": "FBlade <dev@salespark.io>",
   "license": "MIT",
   "dependencies": {
     "axios": "^1.10.0",
